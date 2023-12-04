@@ -9,6 +9,9 @@ public class JavaMethods {
         getSum(2.3, 5.6);
         helloNameAge("Andrei",26);
         friends("Andrei","Razvan");
+        System.out.println(getSuM(7,9));
+        System.out.println(getProducT(5,5));
+        System.out.println(areMere("Ana"));
 
     }
     private static void printHello(){
@@ -42,4 +45,17 @@ public class JavaMethods {
     private static void friends(String name1, String name2){
         System.out.println(name1+" and "+name2+" are friends");
     }
+
+    public static int getSuM(int x, int y) {
+        int sum = x + y;
+        return sum;
+    }
+    public static int getProducT(int x, int y){
+        return x*y;
+    }
+    private static String areMere(String nume){
+      return(nume+" are mere");
+    }
 }
+
+
